@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="beans.Student" table="std_Table">
+
+        <id name="std_id" column="std_id" />
+        <property name="name" column="std_name" />
+        <property name="email" column="std_email" />
+        <property name="rollno" column="std_rollno" />
+        <property name="city" column="std_city" />
+        <property name="gender" column="std_gender" />
+    </class>
+</hibernate-mapping>
