@@ -19,7 +19,7 @@ public class Main {
         Configuration cfg = new Configuration();
         cfg.configure("hibernate.cfg.xml");
 
-        SessionFactory sf = cfg.buildSessionFactory();
+        SessionFactory sf =  cfg.buildSessionFactory();
 
         Session session =sf.openSession();
         Transaction tx = session.beginTransaction();
