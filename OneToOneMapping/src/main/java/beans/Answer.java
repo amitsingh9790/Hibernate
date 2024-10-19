@@ -3,7 +3,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Answer {
+public class Answer { 
     @Id
     private int a_id;
     private String answer;
